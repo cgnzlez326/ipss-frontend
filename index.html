@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="landing">
+
+    <header class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a href="#inicio" class="navbar-brand">Frontend - IPSS</a>
+            <nav class="navbar-menu" id="navbarMenu">
+                <ul class="navbar-links">
+                    <li><a href="#inicio" class="active">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1>Frontend IPSS Soluciones</h1>
+                <p>Soluciones informáticas low code</p>
+                <a href="#servicios" class="btn">Ver servicios</a>
+            </div>
+        </section>
+
+        <section id="nosotros" class="nosotros">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>Nosotros</h2>
+                    <p>Nuestros valores</p>
+                </div>
+                <div class="nosotros-grid">
+                    <div class="nosotros-card">
+                        <h3>Misión</h3>
+                        <p>Nuestra misión es acercarte hacia el futuro de la informática a través de soluciones comprensibles.</p>
+                    </div>
+                    <div class="nosotros-card">
+                        <h3>Visión</h3>
+                        <p>Queremos que nos acompañen y confíen en nosotros para guiarlos hacia las soluciones que van a la vanguardia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="servicios">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>Servicios</h2>
+                    <p>Servicios proporcionados por IPSS</p>
+                </div>
+                <div class="servicios-grid">
+                    <div class="servicio-card">
+                        <h3>Consultoría Digital</h3>
+                        <p>Servicio de guía experta para mejorar un negocio usando la tecnología, enfocado principalmente en la estrategia en línea, el marketing y la automatización de procesos.</p>
+                    </div>
+                    <div class="servicio-card">
+                        <h3>Soluciones Multiexperiencia</h3>
+                        <p>Crear interfaces de usuario fluidas, continuas y adaptadas a través de múltiples plataformas.</p>
+                    </div>
+                    <div class="servicio-card">
+                        <h3>Evolución de Ecosistemas</h3>
+                        <p>Transición de herramientas aisladas a un tejido global hiperconectado, donde la colaboración entre plataformas es total.</p>
+                    </div>
+                    <div class="servicio-card">
+                        <h3>Soluciones Low-Code</h3>
+                        <p>Plataformas de desarrollo de software que permiten crear aplicaciones de forma rápida mediante interfaces visuales, reduciendo al mínimo la necesidad de escribir código a mano.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>Contacto</h2>
+                    <p>Contáctanos!</p>
+                </div>
+                <div class="contacto-wrapper">
+                    <div class="card">
+                        <div class="card-header">
+                            <h1>Formulario de Contacto</h1>
+                        </div>
+                        <form id="contactForm" novalidate>
+                            <div class="form-group">
+                                <label for="nombre">Nombre completo <span class="required-dot">*</span></label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Ej: María García López" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="servicio">Servicio <span class="required-dot">*</span></label>
+                                <select id="servicio" name="servicio" required>
+                                    <option value="" disabled selected>Selecciona un servicio</option>
+                                    <option value="Consultoría Digital">Consultoría Digital</option>
+                                    <option value="Soluciones Multiexperiencia">Soluciones Multiexperiencia</option>
+                                    <option value="Evolución de Ecosistemas">Evolución de Ecosistemas</option>
+                                    <option value="Soluciones Low-Code">Soluciones Low-Code</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="mensaje">Mensaje <span class="required-dot">*</span></label>
+                                <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos sobre tu proyecto o consulta..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="submit-btn">Enviar mensaje</button>
+                        </form>
+                        <p class="form-footer">La respuesta se mostrará en la consola del navegador</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

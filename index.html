@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MUNICIPALIDAD-CHOLCHOL - Chol Chol Avanza</title>
+  <meta name="description" content="Sitio oficial de la Ilustre Municipalidad de Cholchol. Noticias, trámites, transparencia y contacto.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&family=Anton&family=Oswald:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" href="https://municholchol.cl/images/32x32/17787111/favicon.ico">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <!-- Top bar: utilidades / transparencia -->
+  <div class="top-bar">
+    <div class="container">
+      <ul class="nav-utilities">
+        <li><a href="https://www.portaltransparencia.cl/PortalPdT/ingreso-sai-v2?idOrg=498" target="_blank" rel="noopener">Solicitar información</a></li>
+        <li><a href="https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU045" target="_blank" rel="noopener">Transparencia activa</a></li>
+        <li><a href="https://www.leylobby.gob.cl/instituciones/MU045" target="_blank" rel="noopener">Plataforma ley lobby</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Navbar + Offcanvas (navegación responsiva) -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark-custom sticky-top" aria-label="Navegación principal">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="https://municholchol.cl/images/147/24327548/loggo-chico-mini-letrasblancas-tvKgkW5VNXE40IuRBlPVbw.png" alt="Municipalidad de Cholchol">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menú de navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end bg-dark-custom" tabindex="-1" id="mainNav" aria-labelledby="mainNavLabel">
+        <div class="offcanvas-header">
+          <span class="offcanvas-title h5" id="mainNavLabel">Menú</span>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Cerrar menú"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="municipio.html">Municipio</a></li>
+            <li class="nav-item"><a class="nav-link" href="patrimonio.html">Patrimonio</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto-5.html">Contactos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+    <!-- Hero: carousel de avisos -->
+    <section class="hero" style="background-image: url('https://municholchol.cl/images/1920/14828474/dividido.jpg');">
+      <div class="container">
+        <div id="heroCarousel" class="carousel slide hero-carousel" role="region" aria-roledescription="carousel" aria-label="Avisos y trámites destacados">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="https://cholcholpagos.insico.cl/PermisoCirculacion" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/1024/24214398/image_d3697218-NjhKmTXGocrrhLNze0Ld9g.png" class="d-block w-100" alt="Permiso de circulación en línea">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://drive.google.com/file/d/17-OUpyNdogzze5Lf8xKdN9J2yKvgjDoN/view?usp=drivesdk" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/1024/27175153/ARRIENDO-3iP1a6T6_oUiptyk4jF74w.png" class="d-block w-100" alt="Arriendo de recintos municipales">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://drive.google.com/file/d/1xKwH3l7Ziph8aWtq-yreafcsvxKUwvL2/view?usp=sharing" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/1024/26881368/CONCURSO-AFI-JULIO-2026-zWvHwYy4VNQ5qsrh8W-t_A.png" class="d-block w-100" alt="Bases del concurso">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://drive.google.com/file/d/15IcIGJ1uHlvIWgO0EVuFzT7gL25MmyXH/view?usp=sharing" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/825/26462266/ORDENANZAJUN-4sTAedNq45NEt7XI3ZZWrw.png" class="d-block w-100" alt="Decreto ordenanza">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://drive.google.com/file/d/1R6je4sN-evDZaJY5HSq8AoG3Zo7wSTnE/view?usp=sharing" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/1024/26432858/AFICHETRANSITOJUNIO2026-j5lw7q_Y1oxE4CChXocfpA.jpg" class="d-block w-100" alt="Afiche de tránsito">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://drive.google.com/file/d/10D_KD0ZEEKFiH0hLCAVFX1qrN1MhaPI4/view?usp=drive_link" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/1024/25464115/image_551ef970-VXY0T5OI18Sb1vkNpc0law.png" class="d-block w-100" alt="Aviso municipal">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://drive.google.com/file/d/1FoEcExKHJWzNeFWcxvknjSi3_HyUhq2P/view?usp=sharing" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/1024/25885399/cuenta2025-74mq-og-B1maMc85TNWcNg.jpg" class="d-block w-100" alt="Cuenta pública 2025">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://drive.google.com/file/d/1pGZL4cj4eUB6fghv1ZEz6LL71QhPtkiD/view?usp=sharing" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/1024/25351019/image_8ce7d1b6-qTzT74MQPT8DAzn_1a4xUQ.png" class="d-block w-100" alt="Descargar bases del concurso">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://drive.google.com/file/d/1oVxsASUtDTJe8DCnYXkXk5cc-h9r46Z9/view?usp=sharing" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/1024/25885402/cuenta2024-r04T7uQL4oOXwFhNVu0dCw.jpg" class="d-block w-100" alt="Cuenta pública 2024">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://drive.google.com/file/d/1S2Z2Sd0NisgYDpGlO0qgY5P8fgHMgk4U/view?usp=drive_link" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/1024/16276734/FOR-RENO-P-hf4Waex-h7UnWlAMGvhRsg.jpg" class="d-block w-100" alt="Formulario renovación de patentes">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://drive.google.com/file/d/1JVtPV5EtZBwAe77U2L9sZdGGOWsUHBBq/view?usp=drive_link" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/1024/16276932/FOR-ART4-C5T61AdO8VkdLJ2r8YrIJA.jpg" class="d-block w-100" alt="Formulario artículo 4">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://drive.google.com/file/d/1EuIU97oN95dcxupUXKeGr61BACkoxt2w/view?usp=drive_link" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/1024/16276941/FOR-OPIN-P19WZqshwMiFnMJ34xSVkw.jpg" class="d-block w-100" alt="Formulario de opinión">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://drive.google.com/file/d/1AeVxx5rX4tSqjpNdZlgVaSrXXNt6GZvp/view?usp=drive_link" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/1024/16276947/FOR-REQUIS-B-de8i89RI-N9o33ldXzWg.jpg" class="d-block w-100" alt="Formulario de requisitos">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://drive.google.com/file/d/1Qrjbyux_mwpAbd4eD1wuEygNfXh2Jnlt/view?usp=sharing" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/1275/19747011/PLADECOCholchol2025-2029_1-0oKMTo0Tm1uJfbuVLIne3Q.png" class="d-block w-100" alt="PLADECO 2025-2029">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://drive.google.com/drive/folders/1eJb9TBGzSqwG2L7aG2klBb2EHDlYoquS?usp=drive_link" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/567/18895656/ACTAS-SEC-MUN-pxDRA6Dk-8-dsYjGEpDINg.jpg" class="d-block w-100" alt="Actas de la secretaría municipal">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://www.ine.gob.cl/encuestadiversidades" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/1024/17028670/1920x600-R425TDDyF6nTDNcB0rVhJw.png" class="d-block w-100" alt="Encuesta de diversidades INE">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://drive.google.com/file/d/1NeBv7SBU8gVhH1tM7bzE0j3O9qCDc1-n/view?usp=drive_link" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/800/18127293/LEY21015-bXhrcQ28dqmkrVGog7rDCA.jpg" class="d-block w-100" alt="Ley 21.015">
+              </a>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev" aria-label="Aviso anterior">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next" aria-label="Aviso siguiente">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Aviso 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Aviso 2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Aviso 3"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Aviso 4"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4" aria-label="Aviso 5"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="5" aria-label="Aviso 6"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="6" aria-label="Aviso 7"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="7" aria-label="Aviso 8"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="8" aria-label="Aviso 9"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="9" aria-label="Aviso 10"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="10" aria-label="Aviso 11"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="11" aria-label="Aviso 12"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="12" aria-label="Aviso 13"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="13" aria-label="Aviso 14"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="14" aria-label="Aviso 15"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="15" aria-label="Aviso 16"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="16" aria-label="Aviso 17"></button>
+          </div>
+          <p class="slide-counter" aria-live="polite"><span class="accent" id="heroCounter">1</span> / <span id="heroTotal">17</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Renovación de patentes de alcoholes -->
+    <section class="section section--dark" aria-labelledby="renovacion-titulo">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Trámite en línea</span>
+          <h2 id="renovacion-titulo">Renovación de patentes de alcoholes</h2>
+          <p class="mt-2">Periodo julio a diciembre 2026</p>
+          <a class="btn btn-primary mt-3" href="https://drive.google.com/file/d/1S2Z2Sd0NisgYDpGlO0qgY5P8fgHMgk4U/view?usp=drive_link" target="_blank" rel="noopener">Descargar decreto</a>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-3">
+            <article class="card h-100 reveal">
+              <a class="card-img-link" href="https://docs.google.com/document/d/1PcunS9rO51fIZwepJFUHk4LHgUcMeTl4/edit?usp=drive_link&ouid=102432656960431745378&rtpof=true&sd=true" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/1024/16276734/FOR-RENO-P-hf4Waex-h7UnWlAMGvhRsg.jpg" class="card-img-top" alt="Formulario de renovación de patente">
+              </a>
+              <div class="card-body">
+                <span class="tag">Formulario</span>
+                <h3 class="card-title"><a href="https://docs.google.com/document/d/1PcunS9rO51fIZwepJFUHk4LHgUcMeTl4/edit?usp=drive_link&ouid=102432656960431745378&rtpof=true&sd=true" target="_blank" rel="noopener">Renovación de patente</a></h3>
+                <a class="link-more" href="https://docs.google.com/document/d/1PcunS9rO51fIZwepJFUHk4LHgUcMeTl4/edit?usp=drive_link&ouid=102432656960431745378&rtpof=true&sd=true" target="_blank" rel="noopener">Ver documento &rarr;</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="card h-100 reveal">
+              <a class="card-img-link" href="https://drive.google.com/file/d/1JVtPV5EtZBwAe77U2L9sZdGGOWsUHBBq/view?usp=drive_link" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/1024/16276932/FOR-ART4-C5T61AdO8VkdLJ2r8YrIJA.jpg" class="card-img-top" alt="Formulario artículo 4">
+              </a>
+              <div class="card-body">
+                <span class="tag">Formulario</span>
+                <h3 class="card-title"><a href="https://drive.google.com/file/d/1JVtPV5EtZBwAe77U2L9sZdGGOWsUHBBq/view?usp=drive_link" target="_blank" rel="noopener">Artículo 4</a></h3>
+                <a class="link-more" href="https://drive.google.com/file/d/1JVtPV5EtZBwAe77U2L9sZdGGOWsUHBBq/view?usp=drive_link" target="_blank" rel="noopener">Ver documento &rarr;</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="card h-100 reveal">
+              <a class="card-img-link" href="https://drive.google.com/file/d/1EuIU97oN95dcxupUXKeGr61BACkoxt2w/view?usp=drive_link" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/1024/16276941/FOR-OPIN-P19WZqshwMiFnMJ34xSVkw.jpg" class="card-img-top" alt="Formulario de opinión">
+              </a>
+              <div class="card-body">
+                <span class="tag">Formulario</span>
+                <h3 class="card-title"><a href="https://drive.google.com/file/d/1EuIU97oN95dcxupUXKeGr61BACkoxt2w/view?usp=drive_link" target="_blank" rel="noopener">Opinión</a></h3>
+                <a class="link-more" href="https://drive.google.com/file/d/1EuIU97oN95dcxupUXKeGr61BACkoxt2w/view?usp=drive_link" target="_blank" rel="noopener">Ver documento &rarr;</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="card h-100 reveal">
+              <a class="card-img-link" href="https://drive.google.com/file/d/1AeVxx5rX4tSqjpNdZlgVaSrXXNt6GZvp/view?usp=drive_link" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/1024/16276947/FOR-REQUIS-B-de8i89RI-N9o33ldXzWg.jpg" class="card-img-top" alt="Formulario de requisitos">
+              </a>
+              <div class="card-body">
+                <span class="tag">Formulario</span>
+                <h3 class="card-title"><a href="https://drive.google.com/file/d/1AeVxx5rX4tSqjpNdZlgVaSrXXNt6GZvp/view?usp=drive_link" target="_blank" rel="noopener">Requisitos</a></h3>
+                <a class="link-more" href="https://drive.google.com/file/d/1AeVxx5rX4tSqjpNdZlgVaSrXXNt6GZvp/view?usp=drive_link" target="_blank" rel="noopener">Ver documento &rarr;</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Noticias -->
+    <section class="section section--light" aria-labelledby="noticias-titulo">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Noticias</span>
+          <h2 id="noticias-titulo">Apoyo municipal</h2>
+          <div class="rule"></div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-4">
+            <article class="card h-100 reveal">
+              <a class="card-img-link" href="#noticias">
+                <img src="https://municholchol.cl/images/800/16209647/becadossssss_001-KEEt54pssiuBtKpOzQr7Aw.jpg" class="card-img-top" alt="Estudiantes beneficiados con becas municipales">
+              </a>
+              <div class="card-body">
+                <span class="tag">Apoyo municipal</span>
+                <h3 class="card-title"><a href="#noticias">100 jóvenes de Cholchol son beneficiados con becas para sus estudios superiores</a></h3>
+                <p class="card-text">El Municipio de Cholchol, liderado por el alcalde Álvaro Labraña junto al Concejo municipal, a través de su Programa de Becas Municipales, benefició este año 2025 a 100 estudiantes de educación superior...</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <article class="card h-100 reveal">
+              <a class="card-img-link" href="#noticias">
+                <img src="https://municholchol.cl/images/576x432%2C4284x3213%2B713%2B0/16228766/proco-1-OFVa9QS52_1CEbCpsXcfnA.jpeg" class="card-img-top" alt="Ceremonia de reconocimiento a dirigentes sociales">
+              </a>
+              <div class="card-body">
+                <span class="tag">Comunidad</span>
+                <h3 class="card-title"><a href="#noticias">Municipio reconoce a dirigentes sociales que lucharon para que Cholchol sea comuna</a></h3>
+                <p class="card-text">Por primera vez en la historia de la comuna, el municipio rindió homenaje a los vecinos que trabajaron durante años para lograr la autonomía de Cholchol en el año 2004...</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <article class="card h-100 reveal">
+              <a class="card-img-link" href="https://www.ine.gob.cl/encuestadiversidades" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/1024/17028670/1920x600-R425TDDyF6nTDNcB0rVhJw.png" class="card-img-top" alt="Encuesta de diversidades y no discriminación del INE">
+              </a>
+              <div class="card-body">
+                <span class="tag">Participación</span>
+                <h3 class="card-title"><a href="https://www.ine.gob.cl/encuestadiversidades" target="_blank" rel="noopener">Encuesta de diversidades y no discriminación</a></h3>
+                <p class="card-text">Participa en la encuesta del Instituto Nacional de Estadísticas y colabora con datos de calidad para nuestras políticas públicas.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reconocimiento a dirigentes (nota ampliada + galería) -->
+    <section class="section" id="noticias" aria-labelledby="dirigentes-titulo">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Hito comunal</span>
+          <h2 id="dirigentes-titulo">Municipio reconoce a dirigentes sociales que lucharon para que Cholchol sea comuna</h2>
+          <div class="rule"></div>
+        </div>
+        <div class="row g-5 align-items-start">
+          <div class="col-lg-6 reveal">
+            <p>Por primera vez en la historia de la comuna el municipio, liderado por el alcalde, Álvaro Labraña, rindió homenaje a los vecinos que trabajaron durante años para lograr que Cholchol fuera un territorio autónomo y se independizara de Nueva Imperial en el año 2004.</p>
+            <p class="mt-3">En una emotiva ceremonia el municipio de Cholchol rindió homenaje a los vecinos y dirigentes sociales que formaron parte fundamental del proceso que permitió la creación de la comuna hace más de dos décadas. El evento reunió a autoridades como los senadores José García Ruminot y Jaime Quintana, la directora del Fosis, Tamara Torres, y los concejales Bernardita Viscarra, Ismel Cayul, Andrés Navarrete y Gonzalo Troppa.</p>
+            <p class="mt-3">La máxima autoridad comunal destacó la importancia de honrar a quienes "con visión, perseverancia y amor por esta tierra, marcaron un antes y un después en la historia de Cholchol".</p>
+            <p class="mt-3">La ceremonia finalizó en el frontis de la municipalidad, donde se instaló una escultura a gran escala de una trapelacucha, figura representativa del pueblo mapuche, con una placa conmemorativa en honor al Comité Procomuna.</p>
+          </div>
+          <div class="col-lg-6 reveal">
+            <div class="gallery">
+              <a href="https://municholchol.cl/images/1200/16228766/proco-1-OFVa9QS52_1CEbCpsXcfnA.jpeg"><img src="https://municholchol.cl/images/576x432%2C4284x3213%2B713%2B0/16228766/proco-1-OFVa9QS52_1CEbCpsXcfnA.jpeg" alt="Ceremonia procomuna 1"></a>
+              <a href="https://municholchol.cl/images/1200/16228769/proco-2-CoQZqAplC39lY2ApT3H7vg.jpeg"><img src="https://municholchol.cl/images/576x432%2C4284x3213%2B713%2B0/16228769/proco-2-CoQZqAplC39lY2ApT3H7vg.jpeg" alt="Ceremonia procomuna 2"></a>
+              <a href="https://municholchol.cl/images/1200/16228772/proco-3-TG6wU54Rm6GDz-SmMLMajQ.jpeg"><img src="https://municholchol.cl/images/576x432%2C4284x3213%2B713%2B0/16228772/proco-3-TG6wU54Rm6GDz-SmMLMajQ.jpeg" alt="Ceremonia procomuna 3"></a>
+              <a href="https://municholchol.cl/images/1200/16228775/proco-4-ilDvDZpenV1zwNgcRKt1WA.jpeg"><img src="https://municholchol.cl/images/576x432%2C4284x3213%2B713%2B0/16228775/proco-4-ilDvDZpenV1zwNgcRKt1WA.jpeg" alt="Ceremonia procomuna 4"></a>
+              <a href="https://municholchol.cl/images/1200/16228776/proco-5-aylYXAOj5vu6kD1oeaAbnQ.jpeg"><img src="https://municholchol.cl/images/576x432%2C4285x3214%2B713%2B0/16228776/proco-5-aylYXAOj5vu6kD1oeaAbnQ.jpeg" alt="Ceremonia procomuna 5"></a>
+              <a href="https://municholchol.cl/images/675/16228782/proco-6-BdRfB4kipOrIsYwYx2W05A.jpeg"><img src="https://municholchol.cl/images/576x432%2C3213x2409%2B0%2B847/16228782/proco-6-BdRfB4kipOrIsYwYx2W05A.jpeg" alt="Ceremonia procomuna 6"></a>
+              <a href="https://municholchol.cl/images/1200/16228786/proco-7-LQIk_duWZzcrvM0JXcE4BQ.jpeg"><img src="https://municholchol.cl/images/576x432%2C4284x3213%2B713%2B0/16228786/proco-7-LQIk_duWZzcrvM0JXcE4BQ.jpeg" alt="Ceremonia procomuna 7"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Encuestas ciudadanas y plataformas -->
+    <section class="section section--light" aria-labelledby="encuestas-titulo">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Participación</span>
+          <h2 id="encuestas-titulo">Encuestas ciudadanas</h2>
+          <div class="rule"></div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-3">
+            <article class="card h-100 reveal">
+              <a class="card-img-link" href="https://docs.google.com/forms/d/e/1FAIpQLScBBsnUVPRz9K-SMc7p-sMfZ_s3tTOPvUYjnOr_viCpk6u3TQ/viewform?usp=header" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/800/15464322/ESCUESTA-DEPORTE-KbX8Rjm8JZZe7eDcZVHGjA.jpg" class="card-img-top" alt="Encuesta de deporte">
+              </a>
+              <div class="card-body">
+                <h3 class="card-title"><a href="https://docs.google.com/forms/d/e/1FAIpQLScBBsnUVPRz9K-SMc7p-sMfZ_s3tTOPvUYjnOr_viCpk6u3TQ/viewform?usp=header" target="_blank" rel="noopener">Encuesta de deporte</a></h3>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="card h-100 reveal">
+              <a class="card-img-link" href="https://docs.google.com/forms/d/e/1FAIpQLScbQ-UPctjQiDLlZRugqqbz1XkY-YPuxFAHfcySveaAMzvBkw/viewform" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/800/15464331/ESCUESTASCLIMA-OG9S5zYglC5VDZ0W2sgIgQ.jpg" class="card-img-top" alt="Encuesta sobre cambio climático">
+              </a>
+              <div class="card-body">
+                <h3 class="card-title"><a href="https://docs.google.com/forms/d/e/1FAIpQLScbQ-UPctjQiDLlZRugqqbz1XkY-YPuxFAHfcySveaAMzvBkw/viewform" target="_blank" rel="noopener">Encuesta cambio climático</a></h3>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="card h-100 reveal">
+              <a class="card-img-link" href="https://cholcholpagos.insico.cl/PermisoCirculacion" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/800/24508616/image_27daf7e1--v37eq6JGePWkWsGN1GgWA.png" class="card-img-top" alt="Pago de permiso de circulación en línea">
+              </a>
+              <div class="card-body">
+                <h3 class="card-title"><a href="https://cholcholpagos.insico.cl/PermisoCirculacion" target="_blank" rel="noopener">Permiso de circulación en línea</a></h3>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="card h-100 reveal">
+              <a class="card-img-link" href="https://www.youtube.com/@MunicipalidaddeCholcholOficial/streams" target="_blank" rel="noopener">
+                <img src="https://municholchol.cl/images/800/14827991/yv3.png" class="card-img-top" alt="Canal oficial de la municipalidad en YouTube">
+              </a>
+              <div class="card-body">
+                <h3 class="card-title"><a href="https://www.youtube.com/@MunicipalidaddeCholcholOficial/streams" target="_blank" rel="noopener">Canal oficial en YouTube</a></h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-bg" aria-hidden="true"></div>
+    <div class="container footer-top">
+      <div class="row g-4">
+        <div class="col-lg-4 footer-col footer-logo">
+          <img src="https://municholchol.cl/images/209/15532421/LogoBlanco-mv4osohui-VMrfvwdPkkIw.png" alt="Municipalidad de Cholchol">
+          <p>Ilustre Municipalidad de Cholchol. Chol Chol Avanza, construyendo el futuro de nuestra comuna.</p>
+        </div>
+        <div class="col-sm-6 col-lg-2 footer-col">
+          <h3>Navegación</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="municipio.html">Municipio</a></li>
+            <li><a href="patrimonio.html">Patrimonio</a></li>
+            <li><a href="contacto-5.html">Contactos</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-lg-3 footer-col">
+          <h3>Transparencia</h3>
+          <ul>
+            <li><a href="https://www.portaltransparencia.cl/PortalPdT/ingreso-sai-v2?idOrg=498" target="_blank" rel="noopener">Solicitar información</a></li>
+            <li><a href="https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU045" target="_blank" rel="noopener">Transparencia activa</a></li>
+            <li><a href="https://www.leylobby.gob.cl/instituciones/MU045" target="_blank" rel="noopener">Plataforma ley lobby</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 footer-col">
+          <h3>Contacto</h3>
+          <div class="contact-item">
+            <span class="ci"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <span>José Joaquín Pérez 449, Cholchol</span>
+          </div>
+          <div class="contact-item">
+            <span class="ci"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span>
+            <a href="mailto:oficinadepartes@municholchol.cl">oficinadepartes@municholchol.cl</a>
+          </div>
+          <div class="contact-item">
+            <span class="ci"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+            <a href="tel:452734200">452 734 200</a>
+          </div>
+          <div class="footer-map">
+            <iframe src="https://maps.google.com/maps?q=-38.6000101,-72.8473708&amp;z=13&amp;output=embed" title="Mapa de ubicación de la Municipalidad de Cholchol" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">&copy; <span id="year"></span> Municipalidad de Cholchol &middot; José Joaquín Pérez 449, Cholchol</div>
+    </div>
+  </footer>
+
+  <!-- Modal lightbox para galerías -->
+  <div class="modal fade" id="lightbox" tabindex="-1" aria-hidden="true" aria-label="Imagen ampliada">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content bg-transparent border-0 shadow-none">
+        <div class="modal-body p-0 text-end">
+          <button type="button" class="btn btn-light mb-2" data-bs-dismiss="modal" aria-label="Cerrar imagen ampliada">Cerrar &times;</button>
+          <img src="" alt="Imagen ampliada" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
